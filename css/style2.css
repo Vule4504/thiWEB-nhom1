@@ -1,0 +1,158 @@
+/* CSS chỉ áp dụng cho trang sản phẩm */
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    width: 100%;
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.product img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-info {
+    max-width: 100%;
+    text-align: left;
+    text-align: justify;
+}
+
+.product-left {
+    width: 400px;
+    text-align: left;
+    border-bottom: 5px;
+}
+
+.product-left img {
+    width: 300px;
+    height: auto;
+}
+
+.product-content {
+    margin-top: 25px;
+    width: calc(100% - 425px);
+    margin-left: 25px;
+}
+
+.product-info p {
+    font-size: large;
+}
+
+.product-item {
+    margin-top: 20px;
+    border: 5px;
+    height: 300px;
+}
+
+.product-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.register {
+    display: block;
+    margin: 10px 0;
+}
+
+.product-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buy-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.buy-button {
+    display: inline-block;
+    background: red;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    margin-top: 10px;
+}
+
+.buy-button:hover {
+    background: #079c3c;
+}
+
+.news-content {
+    margin-top: 25px;
+    width: calc(100% - 425px);
+    margin-left: 25px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.news-info p {
+    font-size: 15px;
+    font-size: large;
+    max-width: 100%;
+    text-align: left;
+    text-align: justify;
+}
+
+.news-left {
+    width: 400px;
+    text-align: left;
+    border-bottom: 5px;
+}
+
+.news-left img {
+    width: 300px;
+    height: auto;
+}
+
+.news-left h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.gioithieu {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.gioithieu-info p {
+    padding-left: 20px;
+    font-size: 18px;
+    font-size: large;
+    max-width: 100%;
+    text-align: left;
+    text-align: justify;
+}
+
+.contact-info {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-info a {
+    text-emphasis: none;
+    text-decoration: none;
+    color: black;
+}
